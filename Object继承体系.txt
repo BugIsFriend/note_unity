@@ -52,7 +52,12 @@ Debug.Log
 
                                         动画Animator:   OnAnimatorMove():
                                                         OnAnimatorIK()
-                                        动画Audio:      OnAudioFilterRead()                                                        
+                                        动画Audio:      OnAudioFilterRead()  
+
+    3.组件的添加与访问：
+        getComponent<ComponentType>()   // 通过类型获取组件   
+        getComponent("ComponentName")   // 通过名字获取脚本
+                                     
 
                                                          
 

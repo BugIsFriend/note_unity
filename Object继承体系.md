@@ -1,13 +1,13 @@
- 继承体系:
+### 继承体系:
         Object: 
                 1.GameObject:
                 2.Component:
-                        1.Behavior                   继承自Component
+                        1.Behavior                      继承自Component
                                     1.Animation         继承自Behavior
                                     2.Camera            继承自Behavior
                                     3.Light             继承自Behavior
                                     4.MonoBehaviour     继承自Behavior
-                        2.Renderer                   继承自Component
+                        2.Renderer                      继承自Component
                                     1.MeshRenderer:
                                     2.PariticleRenderer:
                         3.Collider
@@ -27,7 +27,7 @@ Debug.LogError()
 Debug.Log
 
 
-二.脚本的响应事件和组件的访问：脚本都继承自MonoBehaviour类
+### 脚本的响应事件和组件的访问：脚本都继承自MonoBehaviour类
     1.脚本的生命周期：
     2.脚本的响应事件和组件的访问
          MonoBehaviour事件响应：

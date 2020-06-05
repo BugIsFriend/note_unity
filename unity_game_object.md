@@ -1,12 +1,12 @@
 
-Unity操作技巧：
+### Unity操作技巧：
 	1.场景中，按住鼠标右键+方向键移动观察相机的同事按住shift，会加速移动
 	2.场景中，选中某个物体按F键，会聚焦在该物体中，按两次，聚焦的同事让相机跟随
 	3.按住数字2键 可以切换2D，3D视图
 
 
 
-GameObject: 
+### GameObject: 
 	
 	uid: 物体在世界的ID
 
@@ -36,33 +36,32 @@ GameObject:
 
 
 
-脚本和类名保持一致；
+### 脚本和类名保持一致；
+	语法解构
 
-语法解构
-
-using 命名空间
-class ClassName : MonoBehvaviour{
-
-
-	[HideInInspactor]
-	public fload s;		// 编辑器中隐藏；
-
-	[Range(0,1)]		// 指定范围；
-	public float b;		// 只有公有的字段在unity编辑看的见；
-
-	public bool re;
+	using 命名空间
+	class ClassName : MonoBehvaviour{
 
 
-	void Start()
-	{
+		[HideInInspactor]
+		public fload s;		// 编辑器中隐藏；
 
+		[Range(0,1)]		// 指定范围；
+		public float b;		// 只有公有的字段在unity编辑看的见；
+
+		public bool re;
+
+
+		void Start()
+		{
+
+		}
+
+		void Update()
+		{
+
+		}
 	}
-
-	void Update()
-	{
-
-	}
-}
 
 ### 脚本的生命周期；
 		1.	Awake()			//	脚本被载入是执行，用于游戏开始前进行初始化,如满足某种条件下执行this.enable=false   激活脚本；
